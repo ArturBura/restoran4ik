@@ -823,3 +823,22 @@ justify-content: center;
         line-height: 40px;
         color: #fff;
 }
+
+@media (max-width:425px)
+{
+ .html{
+    max-width: 100%;
+ }
+
+    .container{
+        width: 400px;
+    }
+
+    nav{
+        display: none;
+    }
+
+    .header-content_last a{
+        padding-right: 0px;
+    }
+}
